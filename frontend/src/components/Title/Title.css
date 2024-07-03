@@ -1,0 +1,48 @@
+.title{
+    text-align: center;
+    color: #212ea0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+    position: relative;
+    top: 50px;
+    
+}
+.title h1{
+    font-size: 40px;
+    color: #000f38;
+    margin-top: 5px;
+    text-transform: none;
+}
+.map iframe{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.title-main{
+
+    display: flex;
+}
+.contant{
+    margin: auto 20px;
+    
+        p{
+            font-size: larger;
+            font-weight: 400;
+        }
+    
+}
+@media only screen and (max-width: 520px) {
+    .title-main{
+        display: block;
+        
+    }
+    iframe{
+    padding-top: 20px;
+        max-height: 300px;
+        max-width: 300px; 
+        margin-left: 55px; 
+
+    }
+  }
+
